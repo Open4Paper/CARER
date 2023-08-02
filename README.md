@@ -22,7 +22,7 @@ This is the replication package for CARER, containing both tool and data that ar
   # Requirements
 
   - Java >= 17.0.7
-  - Pyhton >= 3.9.0, 'tokenizers>=0.12'
+  - Pyhton >= 3.9.0, tokenizers>=0.12
 
   # How to Replicate the Evaluation?
 
