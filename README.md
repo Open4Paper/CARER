@@ -1,11 +1,11 @@
-- # Context-Aware-Name-Recommendation-for-Field-Renaming
+# Context-Aware-Name-Recommendation-for-Field-Renaming
 
   - [General Introduction](#General-Introduction)
   - [Contents of the Replication Package](#Contents-of-the-Replication-Package)
   - [Requirements](#Requirements)
   - [Replicate the Evaluation](#How-to-Replicate-the-Evaluation)
 
-  # General Introduction
+ # General Introduction
 
 This is the replication package for CARER, containing both tool and data that are requested by the replication. It also provides detailed instructions to replicate the evaluation.
 
@@ -40,7 +40,7 @@ This is the replication package for CARER, containing both tool and data that ar
 
        `run *CARERTest.java*`
 
-   ## Incoder Model
+   ## Incoder
    1. **Clone replicate package to your local file system**
 
       `git clone https://github.com/anonymizez/Context-Aware-Name-Recommendation-for-Field-Renaming.git`
