@@ -26,7 +26,7 @@ This is the replication package for CARER, containing both tool and data that ar
 
   # How to Replicate the Evaluation?
 
- ## CARER
+ ## Replicate the evaluation of CARER
 
    1. **Import project**
 
@@ -40,7 +40,7 @@ This is the replication package for CARER, containing both tool and data that ar
 
        `run *CARERTest.java*`
 
-   ## Incoder
+   ## Replicate the evaluation of Incoder
    1. **Clone replicate package to your local file system**
 
       `git clone https://github.com/anonymizez/Context-Aware-Name-Recommendation-for-Field-Renaming.git`
@@ -59,7 +59,7 @@ This is the replication package for CARER, containing both tool and data that ar
 
       `Right-click on the file and select *incoderInfillingScripts.py*(/Incoder/coder/incoderInfillingScripts.py)`
 
-   ## Intellij IDEA
+   ## Replicate the evaluation of Intellij IDEA
 
    1. **Import project**
 
