@@ -3,84 +3,74 @@
   - [General Introduction](#General-Introduction)
   - [Contents of the Replication Package](#Contents-of-the-Replication-Package)
   - [Requirements](#Requirements)
-  - [Dataset](#Dataset)
-  - [How to Replicate the Evaluation?](#How-to-Replicate-the-Evaluation)
+  - [Replicate the Evaluation](#How-to-Replicate-the-Evaluation)
 
   # General Introduction
 
-  This is the replication package for ICSE2024 submission, containing both tool and data that are requested by the replication. It also provides detailed instructions to replicate the evaluation.
+This is the replication package for CARER, containing both tool and data that are requested by the replication. It also provides detailed instructions to replicate the evaluation.
 
   # Contents of the Replication Package
 
-  /Dataset: Benchmark datasets for evaluation experiments.
+  /Dataset: Benchmark Datasets
 
-  /IncoderTest: The implementation of the evaluated Incoder model.
+  /Incoder: The implementation of Incoder
 
-  /Intellij_IDEATest: The implementation of the evaluated Intellij_IDEATest.
+  /Intellij_IDEA: The implementation of Intellij_IDEA.
 
-  /CARERTest: The implementation of the evaluated our proposed approach(CARER).
+  /CARER: The implementation of CARER
 
   # Requirements
 
-  - Java 17.0.7 or newer
-  - Pyhton 3.9.0 or newer, 'tokenizers>=0.12'
-
-
-  # Dataset
-
-  Using *RefactoringMiner* to mine field renaming refactorings from real projects.
+  - Java >= 17.0.7
+  - Pyhton >= 3.9.0, 'tokenizers>=0.12'
 
   # How to Replicate the Evaluation?
+
+ ## CARER
+
+   1. **Import project**
+
+      `Go to *File* -> *import* ->*Existing Projects into Workspace*`
+
+      Browse to the "CARER" directory
+
+      `Click *OK*`
+  
+   2. **Run the experiment**
+
+       `run *CARERTest.java*`
 
    ## Incoder Model
    1. **Clone replicate package to your local file system**
 
-      https://github.com/anonymizez/Context-Aware-Name-Recommendation-for-Field-Renaming.git
+      `git clone https://github.com/anonymizez/Context-Aware-Name-Recommendation-for-Field-Renaming.git`
 
   2. **Import project**
 
-     Go to *File* -> *Open...*(Pycharm, download incoder: https://github.com/dpfried/incoder)
+      `git clone https://github.com/dpfried/incoder`
+     
+      `Go to *File* -> *Open...*(Pycharm,  incoder)`
 
-     Browse to the "IncoderTest" directory
+     Browse to the "Incoder" directory
 
-     Click *OK*
-
-     The project will be built automatically.
+     `Click *OK*`
 
    3. **Run the experiment**
 
-      Right-click on the file and select *incoderInfillingScripts.py*(/IncoderTest/coder/incoderInfillingScripts.py).
-
-  ## CARER
-
-   1. **Import project**
-
-      Go to *File* -> *import* ->*Existing Projects into Workspace*
-
-      Browse to the "CARERTest" directory
-
-      Click *OK*
-
-      The project will be built automatically.
-  
-   2. **Run the experiment**
-
-       Right-click on the file and select *CARERTest.java*.
+      `Right-click on the file and select *incoderInfillingScripts.py*(/Incoder/coder/incoderInfillingScripts.py)`
 
    ## Intellij IDEA
 
    1. **Import project**
 
-      Go to *File* -> *import* ->*Existing Projects into Workspace*
+      `Go to *File* -> *import* ->*Existing Projects into Workspace*`
 
-      Browse to the "Intellij_IDEATest" directory
+      Browse to the "Intellij_IDEA" directory
 
-      Click *OK*
-
-      The project will be built automatically.
+      `Click *OK*`
   
    2. **Run the experiment**
 
-       Right-click on the file and select IDEATest.java*.
+       `run IDEATest.java`
 
 
