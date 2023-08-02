@@ -1,3 +1,0 @@
-id;
-  public int coordinateX;
-  public int coordinateY coordinateY

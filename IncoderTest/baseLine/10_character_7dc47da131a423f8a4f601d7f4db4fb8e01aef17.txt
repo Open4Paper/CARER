@@ -1,8 +1,0 @@
-private final char <infill>;
-
-public Letter(char c){
-  this.<infill>=c;
-}
-@Override protected void printThisBefore(){
-  System.out.print(<infill>);
-}
